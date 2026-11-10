@@ -1,5 +1,5 @@
-importe = float(input("Importe de la compra (€): "))
-entregado = float(input("Dinero entregado (€): "))
+importe = float(input("Importe de la compra €: "))
+entregado = float(input("Dinero entregado €: "))
 
 cambio = round((entregado - importe) * 100)
 
